@@ -1,0 +1,78 @@
+# Sistema de Gerenciamento de Estacionamento
+
+## Aluno
+
+Ezequiel Nogueira
+
+## Tema
+
+Sistema de Gerenciamento de Estacionamento
+
+## Centro Universitário Alves Faria — UNIALFA
+
+**Curso:** Análise e Desenvolvimento de Sistemas — ADS  
+**Disciplina:** Estrutura de Dados I  
+**Professor:** George Mendes Marra
+
+## 1. Tema do Projeto
+
+Sistema de Gerenciamento de Estacionamento.
+
+O projeto tem como objetivo aplicar conceitos de estruturas de dados em um sistema simples para controle de veículos e vagas de um estacionamento.
+
+## 2. Descrição
+
+O sistema permite cadastrar veículos, identificar o tipo do veículo, ocupar vagas do estacionamento e controlar os veículos por meio de uma estrutura de pilha.
+
+O programa é executado pelo terminal e possui um menu para facilitar a utilização.
+
+## 3. Estruturas utilizadas na N1
+
+### Array
+
+Foi utilizado um Array para representar as vagas disponíveis no estacionamento.
+
+O estacionamento possui inicialmente 10 vagas.
+
+### Enum
+
+Foi criado o Enum `TipoVeiculo`, contendo os tipos:
+
+- CARRO
+- MOTO
+- CAMINHAO
+
+### Pilha
+
+Foi implementada uma estrutura de Pilha própria em Java.
+
+A pilha possui as operações:
+
+- Empilhar (`empilhar`)
+- Desempilhar (`desempilhar`)
+- Consultar o topo (`consultarTopo`)
+
+A estrutura segue o conceito LIFO (Last In, First Out), no qual o último elemento inserido é o primeiro a ser retirado.
+
+## 4. Funcionalidades
+
+O sistema possui as seguintes opções:
+
+1. Estacionar veículo
+2. Listar vagas
+3. Consultar topo da pilha
+4. Retirar veículo da pilha
+0. Sair
+
+## 5. Linguagem utilizada
+
+- Java
+
+## 6. Como executar
+
+Entre na pasta `src` pelo terminal.
+
+Compile os arquivos:
+
+```bash
+javac Main.java TipoVeiculo.java Pilha.java
